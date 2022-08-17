@@ -6,4 +6,4 @@ Diagrama de Casos de Uso
 
 Diagrama inicial de Clases
 
-![image](https://user-images.githubusercontent.com/75964273/185034937-01277483-884d-4fa3-994e-2e62bfa7c109.png)
+![image](https://user-images.githubusercontent.com/75964273/185038177-9cc60c4c-63d7-49e9-a681-6e7c2ff3610a.png)
