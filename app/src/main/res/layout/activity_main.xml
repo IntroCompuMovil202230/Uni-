@@ -37,7 +37,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/signIn"
             android:layout_width="0dp"
             android:layout_height="34dp"
             android:layout_margin="5dp"
@@ -48,7 +48,7 @@
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
-            android:id="@+id/signIn"
+            android:id="@+id/signUP"
             android:layout_width="0dp"
             android:layout_height="34dp"
             android:layout_margin="5dp"
@@ -67,19 +67,22 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="130dp"
+            android:id="@+id/faceSignIn"
+            android:layout_width="160dp"
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:text="Enter with Facebook"
             android:textColor="#747070"
             android:textSize="10sp"
             android:background="@drawable/button"
+            android:drawableStart="@drawable/facebook_image"
+            android:drawablePadding="6dp"
+            android:gravity="start|center"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="130dp"
+            android:id="@+id/igSignIn"
+            android:layout_width="160dp"
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
@@ -87,6 +90,9 @@
             android:textColor="#747070"
             android:textSize="10sp"
             android:background="@drawable/button"
+            android:drawableStart="@drawable/imagetextbutt"
+            android:drawablePadding="6dp"
+            android:gravity="start|center"
             tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 </FrameLayout>
