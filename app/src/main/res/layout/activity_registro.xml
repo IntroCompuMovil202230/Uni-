@@ -1,0 +1,20 @@
+<!-- Registro -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registro"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/registro"
+    android:clipToOutline="true">
+    <!-- Logo2- 1 -->
+    <View
+        android:id="@+id/logo2_1"
+        android:layout_width="134.96dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/logo2_1" />
+
+
+</RelativeLayout>
