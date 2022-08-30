@@ -1,78 +1,77 @@
 <!-- Registro -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/registro"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
-    android:background="@color/white">
+    android:background="@drawable/registro">
 
+    <!-- Logo2- 1 -->
+    <!-- Nombre -->
     <View
         android:id="@+id/logo2_1"
         android:layout_width="134.96dp"
         android:layout_height="110dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="72dp"
-        android:background="@drawable/logo1bt" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="574dp"
+        android:background="@drawable/logoR" />
 
-    <!-- Nombre -->
     <TextView
         android:id="@+id/nombre"
         android:layout_width="171dp"
         android:layout_height="25dp"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="24dp"
-        android:layout_alignParentTop="true"
         android:layout_marginTop="220dp"
-        android:text="Nombre"
-        android:textAppearance="@style/nombre"
         android:gravity="center_vertical"
-        />
+        android:text="@string/nombre"
+        android:textAppearance="@style/nombre" />
 
-    <!-- Component -->
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/component"
-        android:layout_width="343dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="24dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="245dp"
-        android:background="@drawable/component"
-        >
-        <!-- Rectangle 2 -->
-        <View
-            android:id="@+id/rectangle_2"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/rectangle_2"
-            />
+    <!-- Rectangle 2 -->
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="425dp"
+        android:background="@drawable/rectangle_2" />
 
-        <!-- jane@example.com -->
-        <TextView
-            android:id="@+id/jane_exampl"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:outlineAmbientShadowColor="@color/black"
-            android:gravity="center_vertical"
-            android:text="Nombre Usuario"
-            android:textAppearance="@style/jane_exampl" />
-    </RelativeLayout>
+    <!-- jane@example.com -->
+    <TextView
+        android:id="@+id/editNombre"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_alignStart="@+id/rectangle_2"
+        android:layout_alignEnd="@+id/rectangle_2"
+        android:layout_alignBottom="@+id/rectangle_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/nombreusuario"
+        android:textAppearance="@style/jane_exampl" />
 
-
-
+    <!-- Correo -->
     <TextView
         android:id="@+id/correo"
         android:layout_width="171dp"
@@ -81,117 +80,46 @@
         android:layout_marginLeft="24dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="311dp"
-        android:text="Correo"
+        android:text="@string/correo"
         android:textAppearance="@style/correo"
         android:gravity="center_vertical"
         />
+    <!-- Rectangle 3 -->
 
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/components2"
-        android:layout_width="343dp"
-        android:layout_height="52dp"
+    <!-- jane@example.com -->
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="24dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="336dp"
-        android:background="@drawable/component"
-        >
+        android:layout_marginTop="93dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="332dp"
+        android:background="@drawable/rectangle_2" />
 
-        <!-- Rectangle 2 -->
-        <View
-            android:id="@+id/rectangle_3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/rectangle_2"
-            />
-
-        <TextView
-            android:id="@+id/jane_example"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:text="nusuario@example.com"
-            android:textAppearance="@style/jane_exampl"
-            android:gravity="center_vertical"
-            tools:ignore="DuplicateIds" />
-
-    </RelativeLayout>
-
-    <!-- Component -->
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/component3"
-        android:layout_width="343dp"
-        android:layout_height="52dp"
+    <TextView
+        android:id="@+id/editCorreo"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rectangle_3"
+        android:layout_alignTop="@+id/rectangle_3"
+        android:layout_alignEnd="@+id/rectangle_3"
+        android:layout_alignBottom="@+id/rectangle_3"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="24dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="430dp"
-        android:background="@drawable/component"
-        >
-        <!-- Rectangle 2 -->
-        <View
-            android:id="@+id/rectangle_4"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/rectangle_2"
-            />
-        <TextView
-            android:id="@+id/some_id"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:text="*******"
-            android:textAppearance="@style/some_id"
-            android:gravity="center_vertical"
-            />
-
-
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/component_5"
-        android:layout_width="343dp"
-        android:layout_height="52dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="24dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="524dp"
-        android:background="@drawable/component"
-        >
-        <TextView
-            android:id="@+id/jane_exampl4"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:text="NombreUni."
-            android:textAppearance="@style/jane_exampl"
-            android:gravity="center_vertical"
-            />
-
-    </RelativeLayout>
-
-
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical"
+        android:text="@string/nusuario_example_com"
+        android:textAppearance="@style/jane_exampl" />
 
     <!-- Contraseña -->
     <TextView
@@ -202,10 +130,49 @@
         android:layout_marginLeft="24dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="405dp"
-        android:text="Contraseña"
+        android:text="@string/contrase_a"
         android:textAppearance="@style/contrase_a"
         android:gravity="center_vertical"
         />
+
+    <!-- Rectangle 3 -->
+
+    <!-- jane@example.com -->
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/rectangle_2" />
+
+    <TextView
+        android:id="@+id/editContra"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rectangle_4"
+        android:layout_alignTop="@+id/rectangle_4"
+        android:layout_alignEnd="@+id/rectangle_4"
+        android:layout_alignBottom="@+id/rectangle_4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/contra"
+        android:textAppearance="@style/jane_exampl" />
+
     <!-- Universidad -->
     <TextView
         android:id="@+id/universidad"
@@ -215,39 +182,66 @@
         android:layout_marginLeft="24dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="499dp"
-        android:text="Universidad"
+        android:text="@string/universidad"
         android:textAppearance="@style/universidad"
         android:gravity="center_vertical"
         />
 
-    <!-- Button -->
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="146dp"
+        android:background="@drawable/rectangle_2" />
 
-    <!-- Button -->
+    <TextView
+        android:id="@+id/editUni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rectangle_5"
+        android:layout_alignTop="@+id/rectangle_5"
+        android:layout_alignEnd="@+id/rectangle_5"
+        android:layout_alignBottom="@+id/rectangle_5"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="11dp"
+        android:gravity="center_vertical"
+        android:text="@string/nombreuni"
+        android:textAppearance="@style/jane_exampl" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="194dp"
-        android:layout_height="48dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="114dp"
-        android:layout_marginTop="601dp"
-        android:background="@drawable/button"
-        android:backgroundTint="@color/black"
-        android:contentDescription="@string/app_name"
-        android:text="Agregar carné" />
+        android:id="@+id/button4"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/azulgris"
+        android:text="Button" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="343dp"
-        android:layout_height="52dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="677dp"
-        android:background="@drawable/button"
-        android:backgroundTint="@color/black"
-        android:text="SIGUIENTE" />
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="@color/azulgris"
+        android:text="Button" />
 
 
 </RelativeLayout>
