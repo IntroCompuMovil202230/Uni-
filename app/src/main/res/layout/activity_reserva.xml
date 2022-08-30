@@ -1,0 +1,174 @@
+<!-- Reserva -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reserva"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/reserva"
+    android:clipToOutline="true">
+    <!-- image 3 -->
+
+    <!-- Carrera 13 con calle 39 -->
+
+    <View
+        android:id="@+id/image_3"
+        android:layout_width="400dp"
+        android:layout_height="358dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/image_3"
+        android:elevation="65dp" />
+
+    <TextView
+        android:id="@+id/carrera_13_"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="299dp"
+        android:gravity="center_vertical"
+        android:text="Carrera 13 con calle 39"
+        android:textAppearance="@style/carrera_13_"
+        android:textStyle="bold" />
+
+    <!-- Ver en mapa -->
+    <TextView
+        android:id="@+id/ver_en_mapa"
+        android:layout_width="102dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="369dp"
+        android:text="Ver en Mapa"
+        android:textStyle="bold"
+        android:textAppearance="@style/ver_en_mapa"
+        android:gravity="center_vertical"
+        />
+
+    <!-- Espacio: -->
+
+    <View
+        android:id="@+id/screen_shot"
+        android:layout_width="320dp"
+        android:layout_height="313dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/mapa" />
+
+    <TextView
+        android:id="@+id/espacio_"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="764dp"
+        android:text="Espacio:"
+        android:textStyle="bold"
+        android:textAppearance="@style/espacio_"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/piso_3_sala"
+        android:layout_width="142dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="766dp"
+        android:text="Piso 3, Sala 003-12"
+        android:textAppearance="@style/piso_3_sala"
+        android:gravity="center_vertical"
+        />
+
+
+
+    <TextView
+        android:id="@+id/reserva_"
+        android:layout_width="70dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="839dp"
+        android:text="Reserva:"
+        android:textStyle="bold"
+        android:textAppearance="@style/reserva_"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/am_03_00_pm"
+        android:layout_width="182dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="839dp"
+        android:text="10:00 AM - 03:00 PM"
+        android:textAppearance="@style/am_03_00_pm"
+        android:gravity="center_vertical"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rectangle_4"
+        android:layout_width="390dp"
+        android:layout_height="79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/rectangle_4"
+        android:elevation="32dp">
+
+        <View
+            android:id="@+id/house"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:background="@drawable/house"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+        <View
+            android:id="@+id/mapMaker"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:background="@drawable/mapMaker"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="22dp" />
+
+        <View
+            android:id="@+id/main"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:background="@drawable/Menu"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="223dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+        <View
+            android:id="@+id/account"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:background="@drawable/Account"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="317dp"
+            tools:layout_editor_absoluteY="23dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</RelativeLayout>
