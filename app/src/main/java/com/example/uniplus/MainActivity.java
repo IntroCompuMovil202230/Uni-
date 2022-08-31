@@ -6,11 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView signIn;
-    Button signIn2;
+    Button signIn;
+    Button signUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,22 +18,21 @@ public class MainActivity extends AppCompatActivity {
 
         //inflate
 
-        signIn = findViewById(R.id.imageView2);
-        signIn2 = findViewById(R.id.signIn);
+        signIn = findViewById(R.id.signIn);
+        signUp = findViewById(R.id.signUP);
 
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), MenuActivity.class);
+                Intent intent = new Intent(getBaseContext(), SignIn.class);
                 startActivity(intent);
-
             }
         });
 
-        signIn2.setOnClickListener(new View.OnClickListener() {
+        signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), MenuActivity.class);
+                Intent intent = new Intent(getBaseContext(), Registro.class);
                 startActivity(intent);
             }
         });
