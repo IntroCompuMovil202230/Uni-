@@ -1,5 +1,5 @@
 <!-- Stats -->
-<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="30px"> Sobre DevMobile 👨🏼‍🚀</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="30px"> Sobre UniPLus 👨🏼‍🚀</h1>
 <br>
 
 <samp align="center">
@@ -16,7 +16,7 @@
 </a>
 
 
-Holaa, Somos <b>UniPlus</b>, Un grupo apasionado de ingenieros en formación de Colombia 🇨🇴
+Holaa, Somos <b>DevMobile</b>, Un grupo apasionado de ingenieros en formación de Colombia 🇨🇴
 
 - 🚀 Ve a nuestra Wiki [Website](https://github.com/IntroCompuMovil202230/UniPlus/wiki)para conocernos.
 - <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"/> Cat man 🐈.
