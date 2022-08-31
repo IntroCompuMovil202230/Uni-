@@ -16,9 +16,10 @@
         <entry key="app/src/main/res/drawable/search.xml" value="0.129427490234375" />
         <entry key="app/src/main/res/drawable/search_view.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/style_letter.xml" value="0.2005" />
+        <entry key="app/src/main/res/layout/activity_chat_ayuda.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24362255829794144" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.33177083333333335" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.17381896972656247" />
       </map>
     </option>
   </component>
