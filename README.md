@@ -19,7 +19,7 @@
 Holaa, Somos <b>DevMobile</b>, Un grupo apasionado de ingenieros en formación de Colombia 🇨🇴
 
 - 🚀 Ve a nuestra Wiki [Website](https://github.com/IntroCompuMovil202230/UniPlus/wiki)para conocernos.
-- <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"/> Cat man 🐈.
+- <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"/> Amamos a los Gatos 🐈.
 
 
 <!-- Remember -->
