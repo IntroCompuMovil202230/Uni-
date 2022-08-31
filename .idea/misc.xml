@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/David Guasca/AndroidStudioProjects/UniPlus/app/src/main/res/drawable/ic_wallet.xml" value="0.2265" />
         <entry key="..\:/Users/David Guasca/AndroidStudioProjects/UniPlus/app/src/main/res/layout/activity_chat_ayuda.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/David Guasca/AndroidStudioProjects/UniPlus/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
@@ -10,6 +11,8 @@
         <entry key="..\:/Users/David Guasca/AndroidStudioProjects/UniPlus/app/src/main/res/layout/activity_menu_cliente.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/David Guasca/AndroidStudioProjects/UniPlus/app/src/main/res/layout/activity_registro.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/David Guasca/AndroidStudioProjects/UniPlus/app/src/main/res/layout/activity_sign_in.xml" value="0.22826086956521738" />
+=======
+>>>>>>> origin
         <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/agregarcarne.xml" value="0.169" />
         <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/button.xml" value="0.169" />
         <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/component.xml" value="0.169" />

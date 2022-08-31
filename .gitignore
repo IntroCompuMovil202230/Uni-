@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+<<<<<<< HEAD
+=======
+.idea/misc.xml
+.idea/misc.xml
+>>>>>>> origin
