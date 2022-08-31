@@ -16,7 +16,11 @@
         <entry key="app/src/main/res/drawable/button.xml" value="0.1665" />
         <entry key="app/src/main/res/drawable/radius_button.xml" value="0.223" />
         <entry key="app/src/main/res/drawable/rectangle_1.xml" value="0.2985" />
+        <entry key="app/src/main/res/layout-v28/activity_registro.xml" value="0.2504528985507246" />
+        <entry key="app/src/main/res/layout/activity_Espacio.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21064475824025047" />
+        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.2504528985507246" />
+        <entry key="app/src/main/res/layout/activity_tomarFoto.xml" value="0.21354166666666666" />
       </map>
     </option>
   </component>
