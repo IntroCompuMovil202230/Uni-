@@ -37,11 +37,7 @@
         android:orientation="horizontal">
 
         <Button
-<<<<<<< HEAD
             android:id="@+id/signIn"
-=======
-            android:id="@+id/button"
->>>>>>> origin
             android:layout_width="0dp"
             android:layout_height="34dp"
             android:layout_margin="5dp"
@@ -52,11 +48,7 @@
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
-<<<<<<< HEAD
             android:id="@+id/signUP"
-=======
-            android:id="@+id/signIn"
->>>>>>> origin
             android:layout_width="0dp"
             android:layout_height="34dp"
             android:layout_margin="5dp"
@@ -75,35 +67,29 @@
         android:orientation="vertical">
 
         <Button
-<<<<<<< HEAD
             android:id="@+id/faceSignIn"
             android:layout_width="160dp"
-=======
-            android:id="@+id/button2"
-            android:layout_width="130dp"
->>>>>>> origin
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:text="Enter with Facebook"
             android:textColor="#747070"
             android:textSize="10sp"
             android:background="@drawable/button"
-<<<<<<< HEAD
             android:drawableStart="@drawable/facebook_image"
             android:drawablePadding="6dp"
             android:gravity="start|center"
             tools:ignore="TouchTargetSizeCheck" />
 
+        <!--
         <Button
+            android:layout_height="30dp"
             android:id="@+id/igSignIn"
             android:layout_width="160dp"
-=======
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck" /> -->
 
         <Button
             android:id="@+id/button3"
             android:layout_width="130dp"
->>>>>>> origin
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
@@ -111,12 +97,9 @@
             android:textColor="#747070"
             android:textSize="10sp"
             android:background="@drawable/button"
-<<<<<<< HEAD
             android:drawableStart="@drawable/imagetextbutt"
             android:drawablePadding="6dp"
             android:gravity="start|center"
-=======
->>>>>>> origin
             tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 </FrameLayout>

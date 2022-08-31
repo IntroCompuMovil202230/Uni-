@@ -2,56 +2,52 @@ package com.example.uniplus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/*
 public class MainActivity extends AppCompatActivity {
     Button signIn;
-    Button signUp;
-=======
-import android.os.Bundle;
+    Button signUp;} */
 
-<<<<<<< HEAD:app/src/main/java/com/example/uniplus/MainActivity.java
-public class MainActivity extends AppCompatActivity {
->>>>>>> origin
-=======
-public class ReservaActivity extends AppCompatActivity {
->>>>>>> origin/registro_reserva:app/src/main/java/com/example/uniplus/ReservaActivity.java
+//app/src/main/java/com/example/uniplus/MainActivity.java
+//public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-<<<<<<< HEAD:app/src/main/java/com/example/uniplus/MainActivity.java
-        setContentView(R.layout.activity_main);
-<<<<<<< HEAD
+    public class ReservaActivity extends AppCompatActivity {
+        //origin/registro_reserva:app/src/main/java/com/example/uniplus/ReservaActivity.java
+        Button signIn;
+        Button signUp;
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            //app/src/main/java/com/example/uniplus/MainActivity.java
+            setContentView(R.layout.activity_main);
 
-        //inflate
+            //inflate
 
-        signIn = findViewById(R.id.signIn);
-        signUp = findViewById(R.id.signUP);
+            signIn = findViewById(R.id.signIn);
+            signUp = findViewById(R.id.signUP);
 
-        signIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), SignIn.class);
-                startActivity(intent);
-            }
-        });
+            signIn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getBaseContext(), SignIn.class);
+                    startActivity(intent);
+                }
+            });
 
-        signUp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), Registro.class);
-                startActivity(intent);
-            }
-        });
-=======
->>>>>>> origin
-=======
-        setContentView(R.layout.activity_reserva);
->>>>>>> origin/registro_reserva:app/src/main/java/com/example/uniplus/ReservaActivity.java
-    }
+            signUp.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getBaseContext(), Registro.class);
+                    startActivity(intent);
+                }
+            });
+
+            setContentView(R.layout.activity_reserva);
+            //origin/registro_reserva:app/src/main/java/com/example/uniplus/ReservaActivity.java
+        }
+
 }

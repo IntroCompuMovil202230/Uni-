@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">UniPlus</string>
-<<<<<<< HEAD
-=======
     <string name="nombre">Nombre</string>
     <string name="universidad">Universidad</string>
     <string name="contra">*********</string>
@@ -10,5 +8,4 @@
     <string name="correo">Correo</string>
     <string name="nombreusuario">NombreUsuario</string>
     <string name="nombreuni">NombreUni</string>
->>>>>>> origin
 </resources>
