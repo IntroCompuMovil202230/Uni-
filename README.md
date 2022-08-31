@@ -1,15 +1,5 @@
-# UniPlus
-
-Diagrama de Casos de Uso
-
-![image](https://user-images.githubusercontent.com/75964273/185029389-d58fc392-6532-4d31-877a-f07024334c5a.png)
-
-Diagrama inicial de Clases
-
-![image](https://user-images.githubusercontent.com/75964273/185038177-9cc60c4c-63d7-49e9-a681-6e7c2ff3610a.png)
-
 <!-- Stats -->
-<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="30px"> About Me 👨🏼‍🚀</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="30px"> Sobre DevMobile 👨🏼‍🚀</h1>
 <br>
 
 <samp align="center">
@@ -46,3 +36,14 @@ Always fix the biggest problems (Bugs*)
 </samp>
 </p>
 
+
+
+# UniPlus
+
+Diagrama de Casos de Uso
+
+![image](https://user-images.githubusercontent.com/75964273/185029389-d58fc392-6532-4d31-877a-f07024334c5a.png)
+
+Diagrama inicial de Clases
+
+![image](https://user-images.githubusercontent.com/75964273/185038177-9cc60c4c-63d7-49e9-a681-6e7c2ff3610a.png)
