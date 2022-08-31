@@ -1,5 +1,5 @@
 <!-- Stats -->
-<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="30px"> Sobre UniPLus 👨🏼‍🚀</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="30px"> Sobre UniPlus 👨🏼‍🚀</h1>
 <br>
 
 <samp align="center">
@@ -17,6 +17,10 @@
 
 
 Holaa, Somos <b>DevMobile</b>, Un grupo apasionado de ingenieros en formación de Colombia 🇨🇴
+
+Como estudiantes entendemos las necesidades que pueden existir a la hora de trabajar, ya sea de manera grupal o individual, no siempre hay disponibilidad de acceso a las salas de estudio y muchas veces puede ser bastante molesto el tener que trabajar en un espacio no adecuado, para ello llega Uni+.
+
+Uni+ te permite reservar un espacio de trabajo por cierto tiempo, dependiendo tus necesidades, para que puedas hacer las actividades académicas de una manera más comoda. 
 
 - 🚀 Ve a nuestra [Wiki](https://github.com/IntroCompuMovil202230/UniPlus/wiki) para conocernos.
 
