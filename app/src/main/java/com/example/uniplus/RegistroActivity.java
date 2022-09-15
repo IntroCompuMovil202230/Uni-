@@ -4,15 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+
+import com.example.uniplus.databinding.ActivityRegistroBinding;
 
 public class RegistroActivity extends AppCompatActivity {
+
+    private ActivityRegistroBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< Updated upstream
-        setContentView(R.layout.activity_registro);
-=======
         binding = ActivityRegistroBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
@@ -33,11 +35,6 @@ public class RegistroActivity extends AppCompatActivity {
             }
         });
 
-
-
         //binding.userNameField.setText();
-
-
->>>>>>> Stashed changes
     }
 }
