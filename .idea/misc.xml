@@ -3,15 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/camil/OneDrive/Documents/GitHub/UniPlus/app/src/main/res/layout/activity_lista.xml" value="0.192481884057971" />
-        <entry key="..\:/Users/camil/OneDrive/Documents/GitHub/UniPlus/app/src/main/res/layout/activity_main.xml" value="0.24895833333333334" />
-        <entry key="..\:/Users/camil/OneDrive/Documents/GitHub/UniPlus/app/src/main/res/layout/activity_mapa.xml" value="0.192481884057971" />
-        <entry key="..\:/Users/camil/OneDrive/Documents/GitHub/UniPlus/app/src/main/res/layout/activity_menu.xml" value="0.264" />
-        <entry key="..\:/Users/elpad/Desktop/MASTERUNIP/UniPlus/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
-        <entry key="..\:/Users/elpad/Desktop/MASTERUNIP/UniPlus/app/src/main/res/layout/activity_menu.xml" value="0.17255434782608695" />
-        <entry key="..\:/Users/elpad/Desktop/MASTERUNIP/UniPlus/app/src/main/res/layout/activity_registro.xml" value="0.16" />
-        <entry key="..\:/Users/elpad/Desktop/MASTERUNIP/UniPlus/app/src/main/res/layout/activity_reserva.xml" value="0.25" />
-        <entry key="..\:/Users/elpad/Desktop/MASTERUNIP/UniPlus/app/src/main/res/menu/bottom_navegation.xml" value="0.2" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2725" />
         <entry key="app/src/main/res/drawable/button.xml" value="0.1665" />
         <entry key="app/src/main/res/drawable/facebook_image.xml" value="0.1465" />
@@ -26,9 +17,11 @@
         <entry key="app/src/main/res/drawable/search_view.xml" value="0.174" />
         <entry key="app/src/main/res/drawable/style_letter.xml" value="0.2005" />
         <entry key="app/src/main/res/layout/activity_chat_ayuda.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.23632929705191352" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24362255829794144" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.22492828369140627" />
+        <entry key="app/src/main/res/layout/activity_menu_cliente.xml" value="0.19156458757925723" />
         <entry key="app/src/main/res/menu/bottom_navegation.xml" value="0.3307291666666667" />
       </map>
     </option>
