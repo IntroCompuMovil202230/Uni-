@@ -20,7 +20,6 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintTop_toTopOf="parent"
@@ -28,24 +27,25 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="364dp"
+                android:layout_height="31dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
                 android:text="Carrera 13 con calle 39"
                 android:textColor="#000000"
                 android:textSize="21sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/textView2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="355dp"
-                android:layout_height="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
                 android:text="Ver en mapa"
                 android:textColor="#000000"
                 android:textSize="18sp"
@@ -53,8 +53,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="304dp"
-                tools:ignore="MissingConstraints" />
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -75,11 +74,15 @@
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="369dp"
-                android:layout_height="196dp"
+                android:id="@+id/constraintLayout"
+                android:layout_width="371dp"
+                android:layout_height="207dp"
                 android:layout_marginHorizontal="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3">
 
                 <TextView
@@ -99,7 +102,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="36dp"
-                    android:text="Reserva"
+                    android:text="Reserva: "
                     android:textColor="#130B0B"
                     android:textSize="18dp"
                     android:textStyle="bold"
@@ -110,7 +113,7 @@
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="24dp"
                     android:text="10:00 AM - 03:00 PM"
                     android:textAppearance="@style/am_03_00_pm"
                     android:textSize="20dp"
@@ -122,30 +125,25 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="484dp"
-                android:layout_height="248dp"
-                android:layout_marginBottom="48dp"
-                app:layout_constraintBottom_toTopOf="@+id/textView"
+                android:layout_width="388dp"
+                android:layout_height="253dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.52"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
                 app:srcCompat="@drawable/cra13" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:text="Espacio:"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/constraintLayout"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -162,6 +160,5 @@
         app:menu="@menu/bottom_navegation"
         app:labelVisibilityMode="selected"
         style="@style/BottomNavegation"/>
-
 
 </LinearLayout>
