@@ -16,20 +16,23 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         binding = ActivityMenuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.bottomNavegation.setOnItemSelectedListener(item -> {
             switch (item.getItemId()){
                 case R.id.secondFragment:
-                    Intent intent = new Intent(getBaseContext(), ChatAyudaActivity.class);
-                    startActivity(intent);
+                    Intent intentMapa = new Intent(getBaseContext(), MapaActivity.class);
+                    startActivity(intentMapa);
                     return true;
                 case R.id.thirdFragment:
-                    System.out.println("pasa al tercero");
+                    Intent intentLista = new Intent(getBaseContext(), ListaActivity.class);
+                    startActivity(intentLista);
                     return true;
                 case R.id.fourthFragment:
-                    System.out.println("pasa al cuarto");
+                    Intent intentPerfil = new Intent(getBaseContext(), MenuClienteActivity.class);
+                    startActivity(intentPerfil);
                     return true;
             }
             return true;
