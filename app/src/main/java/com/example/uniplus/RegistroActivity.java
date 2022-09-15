@@ -31,7 +31,7 @@ public class RegistroActivity extends AppCompatActivity {
         binding.addUserCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentSignIn = new Intent(getBaseContext(), TomarfotoActivity.class);
+                Intent intentSignIn = new Intent(getBaseContext(), FotoActivity.class);
                 startActivity(intentSignIn);
             }
         });
