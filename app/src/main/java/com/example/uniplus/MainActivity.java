@@ -8,35 +8,32 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.example.uniplus.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
-    ImageView signIn;
-    Button signIn2;
+    ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        //inflate
-
-        signIn = findViewById(R.id.imageView2);
-        signIn2 = findViewById(R.id.signIn);
-
-        signIn.setOnClickListener(new View.OnClickListener() {
+        binding.signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), MenuActivity.class);
-                startActivity(intent);
-
+                Intent intentSignIn = new Intent(getBaseContext(), IniciarSesionActivity.class);
+                startActivity(intentSignIn);
             }
         });
 
-        signIn2.setOnClickListener(new View.OnClickListener() {
+        binding.signUP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), MenuActivity.class);
-                startActivity(intent);
+                Intent intentSignUp = new Intent(getBaseContext(), RegistroActivity.class);
+                startActivity(intentSignUp);
             }
         });
+
     }
 }

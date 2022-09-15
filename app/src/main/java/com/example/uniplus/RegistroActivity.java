@@ -19,6 +19,7 @@ public class RegistroActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
+
         binding.botonRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,6 +36,5 @@ public class RegistroActivity extends AppCompatActivity {
             }
         });
 
-        //binding.userNameField.setText();
     }
 }
