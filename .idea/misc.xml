@@ -3,24 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2725" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/agregarcarne.xml" value="0.169" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/button.xml" value="0.169" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/component.xml" value="0.169" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/logo2_1.xml" value="0.169" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/rectangle_2.xml" value="0.169" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/registro.xml" value="0.169" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout-v28/activity_registro.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout-v31/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout/activity_registro.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/button.xml" value="0.1665" />
-        <entry key="app/src/main/res/drawable/facebook_image.xml" value="0.1465" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2725" />
-        <entry key="app/src/main/res/drawable/images_menu.xml" value="0.2005" />
-        <entry key="app/src/main/res/drawable/imagetextbutt.xml" value="0.2415" />
-        <entry key="app/src/main/res/drawable/menu_bar.xml" value="0.2005" />
-        <entry key="app/src/main/res/drawable/menu_bar_style.xml" value="0.2005" />
         <entry key="app/src/main/res/drawable/radius_button.xml" value="0.223" />
         <entry key="app/src/main/res/drawable/rectangle_1.xml" value="0.2985" />
-        <entry key="app/src/main/res/drawable/search.xml" value="0.129427490234375" />
-        <entry key="app/src/main/res/drawable/search_view.xml" value="0.174" />
-        <entry key="app/src/main/res/drawable/style_letter.xml" value="0.2005" />
-        <entry key="app/src/main/res/layout/activity_chat_ayuda.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24362255829794144" />
-        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.33177083333333335" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.22492828369140627" />
-        <entry key="app/src/main/res/menu/bottom_navegation.xml" value="0.3307291666666667" />
+        <entry key="app/src/main/res/layout/activity_espacio.xml" value="0.19972826086956522" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21064475824025047" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.19972826086956522" />
+        <entry key="app/src/main/res/layout/activity_tomarfoto.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -29,12 +28,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.22492828369140627" />
-      </ProjectState>
-    </option>
   </component>
 </project>
