@@ -22,6 +22,10 @@ public class ListaActivity extends AppCompatActivity {
 
         binding.bottomNavegation.setOnItemSelectedListener(item -> {
             switch (item.getItemId()){
+                case R.id.firstFragment:
+                    Intent intentMenu = new Intent(getBaseContext(), MenuActivity.class);
+                    startActivity(intentMenu);
+                    return true;
                 case R.id.secondFragment:
                     Intent intentMapa = new Intent(getBaseContext(), MapaActivity.class);
                     startActivity(intentMapa);
