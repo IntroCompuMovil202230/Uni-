@@ -25,5 +25,24 @@ public class EspacioActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        binding.bottomNavegation.setOnItemSelectedListener(item -> {
+            switch (item.getItemId()){
+                case R.id.secondFragment:
+                    Intent intentMapa = new Intent(getBaseContext(), MapaActivity.class);
+                    startActivity(intentMapa);
+                    return true;
+                case R.id.thirdFragment:
+                    Intent intentLista = new Intent(getBaseContext(), ListaActivity.class);
+                    startActivity(intentLista);
+                    return true;
+                case R.id.fourthFragment:
+                    Intent intentPerfil = new Intent(getBaseContext(), MenuClienteActivity.class);
+                    startActivity(intentPerfil);
+                    return true;
+            }
+            return true;
+        });
+
     }
 }
