@@ -5,7 +5,7 @@
 <samp align="center">
   
   ```text
-   Elije el mejor espacio para el mejor momento, el ahora por el mañana.
+   Elije el mejor espacio para el mejor momento.
   ```
   
 </samp>
