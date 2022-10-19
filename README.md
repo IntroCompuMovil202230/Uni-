@@ -50,3 +50,8 @@ Diagrama de Casos de Uso
 Diagrama inicial de Clases
 
 ![image](https://user-images.githubusercontent.com/75964273/185038177-9cc60c4c-63d7-49e9-a681-6e7c2ff3610a.png)
+
+Diagrama de Clases Actualizado
+
+![CDUniplus](https://user-images.githubusercontent.com/75964273/196597976-4a7da976-41f0-43fb-a382-021f08d5c46d.jpg)
+
