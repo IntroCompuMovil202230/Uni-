@@ -41,7 +41,7 @@ Always fix the biggest problems (Bugs*)
 
 
 
-# UniPlus Primeros Entregables
+# UniPlus Primeros Diagramas:
 
 Diagrama de Casos de Uso 
 
@@ -51,7 +51,7 @@ Diagrama inicial de Clases
 
 ![image](https://user-images.githubusercontent.com/75964273/185038177-9cc60c4c-63d7-49e9-a681-6e7c2ff3610a.png)
 
-# UniPlus Primeros Entregables
+# UniPlus Actualizado
 
 Diagrama de Clases Actualizado
 
