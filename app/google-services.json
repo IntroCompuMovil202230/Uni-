@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "406822027561",
+    "project_id": "uniplusfirebase",
+    "storage_bucket": "uniplusfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406822027561:android:1be6bc096ec27148a7b738",
+        "android_client_info": {
+          "package_name": "com.example.uniplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406822027561-v3tti83735mrg1fu9oc2gu3m817pdmah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARuMo0SCXCbMGGJTtPyN0NSjHSfmX2CSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406822027561-v3tti83735mrg1fu9oc2gu3m817pdmah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

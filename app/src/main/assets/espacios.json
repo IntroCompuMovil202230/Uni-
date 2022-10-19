@@ -1,0 +1,25 @@
+{
+  "espacios":[
+    {
+      "imagen": "@drawable/cra13",
+      "titulo": "Calle 40B",
+      "descripcion": "Descripción del espacio con lo que ofrece, como por ejemplo, espacios, facil acceso, beneficios, entre otras cosas.",
+      "latitude": 4.62774,
+      "longitude": -74.06704
+    },
+    {
+      "imagen": "@drawable/cra7",
+      "titulo": "Carrera 7",
+      "descripcion": "Descripción del espacio con lo que ofrece, como por ejemplo, espacios, facil acceso, beneficios, entre otras cosas.",
+      "latitude": 4.63330,
+      "longitude": -74.06399
+    },
+    {
+      "imagen": "@drawable/plaza39",
+      "titulo": "plaza 39",
+      "descripcion": "Descripción del espacio con lo que ofrece, como por ejemplo, espacios, facil acceso, beneficios, entre otras cosas.",
+      "latitude": 4.62741,
+      "longitude": -74.06553
+    }
+]
+}
