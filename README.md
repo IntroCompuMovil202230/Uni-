@@ -58,3 +58,7 @@ Diagrama de Clases Actualizado
 
 ![CDUniplus](https://user-images.githubusercontent.com/75964273/196598930-4fc81540-44f2-4168-8c15-7818fcc6cc7d.jpg)
 
+Casos de Uso Actualizado
+
+![UCUniplus](https://user-images.githubusercontent.com/75964273/196609696-90122bb3-3210-434a-adf9-7ef25fea15e7.jpg)
+
