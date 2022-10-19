@@ -52,5 +52,6 @@ Diagrama inicial de Clases
 ![image](https://user-images.githubusercontent.com/75964273/185038177-9cc60c4c-63d7-49e9-a681-6e7c2ff3610a.png)
 
 Diagrama de Clases Actualizado
+
 ![CDUniplus](https://user-images.githubusercontent.com/75964273/196598930-4fc81540-44f2-4168-8c15-7818fcc6cc7d.jpg)
 
