@@ -3,27 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/agregarcarne.xml" value="0.169" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/button.xml" value="0.169" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/component.xml" value="0.169" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/logo2_1.xml" value="0.169" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/rectangle_2.xml" value="0.169" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/drawable/registro.xml" value="0.169" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout-v28/activity_registro.xml" value="0.19895833333333332" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout-v31/activity_registro.xml" value="0.25" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/elpad/Desktop/S6/ComputacionMovil/PROYECTO/principal/UniPlus/app/src/main/res/layout/activity_registro.xml" value="0.25" />
-        <entry key="app/src/main/res/drawable/button.xml" value="0.1665" />
-        <entry key="app/src/main/res/drawable/radius_button.xml" value="0.223" />
-        <entry key="app/src/main/res/drawable/rectangle_1.xml" value="0.2985" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21064475824025047" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_maps_disponibles.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/disponibles.xml" value="0.22826086956521738" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
